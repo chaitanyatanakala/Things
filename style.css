@@ -1,0 +1,522 @@
+.nav,.home,.trending,.top,.cat,.our,.footer{
+    height: 100vh;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+   
+}
+
+nav{
+    background-image: url(./drive-download-20240718T140125Z-001/banner-bg.jpg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+     background-size: 300px;
+    border-bottom-left-radius: 200PX;
+    border-bottom-right-radius: 200PX;  
+    
+}
+ 
+.logo{
+    padding: 3%;
+}
+.ul{
+    display: inline-block;
+    display: flex;
+     padding: 5%;
+    color: white;
+    font-weight: 20;
+    gap: 20px;
+}
+ul:hover{
+    background-color: grey;
+    height: 30px;
+    border-radius: 10px;
+    align-items: center;
+}
+.sign{
+    background-color: red;
+    height: 30px;
+    width: 120px;
+    border-radius: 40px;
+    /* align-items: center; */
+}
+.we{
+     position: relative;
+    bottom: 70%;
+    left: 4%;
+    color: white;
+}
+
+ .img1{
+    position: absolute;
+   bottom: 10%;
+   left: 60%;
+} 
+
+.round{
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background-color: red;
+    position: relative;
+    bottom: 80px;
+    right: 40px;
+    color: white;
+    align-content: center;
+}
+.rect{
+    border: 2px solid rgb(26, 107, 229);
+    border-radius: 30%;
+    width: 50px;
+    height: 40px;
+    color: white;
+    background-color: rgb(70, 92, 238);
+    position: relative;
+    bottom: 470px;
+    left: 250px;
+    align-content: center;
+} 
+
+.sep{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 30px;
+    position: relative;
+}
+.sep1{
+    border: 1PX solid whitesmoke;
+    height: 180px;
+    width: 250px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 400px;
+    left: 10px;
+    justify-content: space-evenly;
+    background-color:white;
+    box-shadow: 2px 2px 2px 2px;
+
+}
+button{
+   width: 365px;
+   height: 62px;
+   cursor: pointer;
+   color: aqua;
+   background: radial-gradient(circle) farthest-corner at 10% 20% rgb(26, 107, 229) rgb(70, 92, 238);
+   font-size: 17px;
+   border-radius:1rem;
+   border: none;
+   position: relative;
+   background: #100720;
+   transition: 0.1s;
+}
+button::after{
+    content: '';
+    height: 100px;
+    width: 100px;
+    background: radial-gradient(circle) farthest-corner at 10% 20% rgb(26, 107, 229) rgb(70, 92, 238);
+    transform: scale(1) rotate(2deg);
+    transition: 5s;
+}
+button:hover{
+    background-color: rgb(243, 85, 85);
+    color: whitesmoke;
+}
+.action{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 30px;
+}
+.assian{
+    border: 1px solid black;
+    height: 320px;
+    width: 280px;
+    border-radius: 30px;
+    background-color: rgb(235, 228, 228);  
+}
+.trending{
+    position: absolute;
+    top: 990px;
+    left: 50px;
+    right: 170px;
+}
+.men{
+    background-color: blue;
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+    left: 99px;
+    top: 15px;
+}
+.men:hover{
+    background-color: rgb(198, 67, 67);
+}
+.tag{
+    position: relative;
+    top: 80%;
+    display: flex;
+    justify-content: center;
+}
+.she{
+    border: 1px solid black;
+    position: relative;
+    left:6%;
+    right: 10%;
+    bottom: 23%;
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.tag1{
+    position: relative;
+    top: 80%;
+    left: 8%;
+}
+.tag1:hover{
+    color: blue;
+}
+.btn1{
+    position: relative;
+    left: 90%;
+    bottom: 9%;
+    width: 15vw;
+    background-color: rgb(237, 92, 92);
+    border-radius: 50px;
+}
+.btn1:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+.sym{
+    border: 2px ;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(241, 81, 81);
+    position: relative;
+    bottom: 60px;
+    right: 90px;
+    color: white;
+    align-content: center;
+}
+.sym1{
+    border: 2px;
+    border-radius: 30%;
+    width: 60px;
+    height: 70px;
+    color: white;
+    background-color: rgb(35, 113, 208);
+    position: relative;
+    bottom: 320px;
+    right: 105px;
+    align-content: center;
+    display: block; 
+} 
+.sym:hover{
+    background-color: royalblue;
+}
+.sym3{
+    border: 2px ;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(241, 81, 81);
+    position: relative;
+    bottom: 60px;
+    left: 1140px;
+    color: white;
+    align-content: center;
+}
+.sym4{
+    border: 2px;
+    border-radius: 30%;
+    width: 60px;
+    height: 70px;
+    color: white;
+    background-color: rgb(35, 113, 208);
+    position: relative;
+    bottom: 320px;
+    left: 950px;
+    align-content: center;
+    display: block; 
+} 
+.top{
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+    background-color: gainsboro;
+    width: 100%;
+    height: 70%;
+    position: relative;
+    top: 150px;
+}
+.btn3{
+    position: relative;
+    left: 85%; 
+    bottom: 10%;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(237, 91, 91);
+}
+.up{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: space-around;
+}
+.tip{
+  height: 300px;
+  width: 210px;
+  background-color:whitesmoke;
+  border-radius: 40px;
+}
+.tip1{
+    position: relative;
+    top: 200px;
+    left: 20px;
+}
+.tip3{
+    position: relative;
+    width: 200px;
+    bottom: 70px;
+    left: 6px;
+    border-radius: 40px;
+}
+.btn5{
+    width: 90px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    left: 60px;
+    background-color: rgb(230, 88, 88);
+    border-radius:50px ;
+    color:white;
+}
+.btn5:hover{
+  background-color: blue;
+}
+.tip1:hover:hover{
+    color: blue ;
+}
+
+.tip4{
+  height: 300px;
+  width: 210px;
+  background-color:whitesmoke;
+  border-radius: 40px;
+}
+.tip5{
+    position: relative;
+    top: 200px;
+    left: 20px;
+}
+.tip6{
+    position: relative;
+    width: 200px;
+    bottom: 70px;
+    left: 6px;
+    border-radius: 40px;
+}
+.tip7{
+    height: 300px;
+    width: 210px;
+    background-color:whitesmoke;
+    border-radius: 40px;
+  }
+  .tip8{
+      position: relative;
+      top: 200px;
+      left: 20px;
+  }
+  .tip9{
+      position: relative;
+      width: 200px;
+      bottom: 70px;
+      left: 6px;
+      border-radius: 40px;
+  }
+  .tip10{
+    height: 300px;
+    width: 210px;
+    background-color:whitesmoke;
+    border-radius: 40px;
+  }
+  .tip11{
+      position: relative;
+      top: 200px;
+      left: 20px;
+  }
+  .tip12{
+      position: relative;
+      width: 200px;
+      bottom: 70px;
+      left: 6px;
+      border-radius: 40px;
+  }
+  .tip13{
+    height: 300px;
+    width: 210px;
+    background-color:whitesmoke;
+    border-radius: 40px;
+  }
+  .tip14{
+      position: relative;
+      top: 200px;
+      left: 20px;
+  }
+  .tip15{
+      position: relative;
+      width: 200px;
+      bottom: 70px;
+      left: 6px;
+      border-radius: 40px;
+  }
+  .tip16{
+    height: 300px;
+    width: 210px;
+    background-color:whitesmoke;
+    border-radius: 40px;
+  }
+  .tip17{
+      position: relative;
+      top: 200px;
+      left: 20px;
+  }
+  .tip18{
+      position: relative;
+      width: 200px;
+      bottom: 70px;
+      left: 6px;
+      border-radius: 40px;
+  }
+  .cat{
+    position: relative;
+    top: 150px;
+  }
+  .down{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 4px;
+    justify-content: space-around;;
+    position: relative;
+    top: 50px;
+    right: 20px;
+}
+.cat1{
+    border: 1px solid black;
+    height: 300px;
+    width: 250px;
+    background-color: rgb(32, 124, 235);
+    border-radius: 30px;
+}
+.tom1{
+    width:248px ;
+    position: relative;
+    top: 68px;
+    border-radius: 30px;
+}
+.tom2{
+    width:248px ;
+    position: relative;
+    top: 68px;
+    border-radius: 30px;
+}
+.tom3{
+    width:248px ;
+    position: relative;
+    top: 68px;
+    border-radius: 30px;
+}
+.tom4{
+    width:248px ;
+    position: relative;
+    top: 68px;
+    border-radius: 30px;
+}
+.tom5{
+    width:248px ;
+    position: relative;
+    top: 68px;
+    border-radius: 30px;
+}
+.pop{
+  position: relative;
+  left: 350px;
+  border-radius: 40px;
+}
+.pop2{
+    display: flex;
+    border: 2px;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    bottom: 420px;
+    background-color: gainsboro;
+    border-radius: 40px;
+    display: block;
+}
+.pop3{
+    display: flex;
+    border: 2px;
+    height: 400px;
+    width: 500px;
+    position: relative;
+    bottom: 820px;
+    left: 750px;
+    background-color: gainsboro;
+    border-radius: 40px;
+    display: block;
+}
+.btn7{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    left: 60px;
+    background-color: rgb(230, 88, 88);
+    border-radius:50px ;
+    color:white;
+}
+
+.footer1{
+    position: relative;
+    top:2850px;
+    height: 170px;
+    width: 100%;
+    border-top-left-radius:180px ;
+    border-top-right-radius: 180px;
+}
+.footer2{
+    position: relative;
+    top: 2720px;
+    text-align: center;
+    color: white;
+}
+.btn8{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50px;
+    padding: 12px;
+    margin-left: 35px;
+    border: none;
+}
+    .btn9{
+        width: fit-content;
+        height: fit-content;
+        border-radius: 50px;
+        padding: 12px;
+        margin-left: 35px;
+        border: none;
+        margin-left: -50px;
+    }
+.btn9:hover{
+    background-color: rgb(238, 91, 91);
+}
+

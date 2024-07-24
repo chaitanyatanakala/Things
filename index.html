@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.min.js"></script> 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <style>
+        @media screen and (min-width:320px) and (max-width:430px) {
+            
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+   
+}
+
+nav{
+    background-image: url(./drive-download-20240718T140125Z-001/banner-bg.jpg);
+    height: 650px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+     background-size: 300px;
+    border-bottom-left-radius: 200PX;
+    border-bottom-right-radius: 200PX;  
+    
+}
+ 
+.logo{
+    padding: 2%;
+}
+.ul{
+    display: inline-block;
+    display: flex;
+     padding: 3%;
+    color: white;
+    font-weight: 10;
+    gap: 1px;
+    padding-left:40px;
+}
+ul:hover{
+    background-color: grey;
+    height: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+.sign{
+    background-color: red;
+    height: 30px;
+    width: 120px;
+    border-radius: 40px;
+    /* align-items: center; */
+}
+.we{
+     position: relative;
+    bottom: 70%;
+    left: 4%;
+    color: white;
+}
+
+ .img1{
+    position: absolute;
+   bottom: 25%;
+   left: 90%;
+   
+} 
+.bo{
+    height:40vh;
+    width: 50vw;
+    border-radius: 40px;
+}
+
+.round{
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+    color: white;
+    align-content: center;
+}
+.rect{
+    border: 2px solid rgb(26, 107, 229);
+    border-radius: 30%;
+    width: 50px;
+    height: 40px;
+    color: white;
+    background-color: rgb(70, 92, 238);
+    position: relative;
+    bottom: 320px;
+    left: 160px;
+    align-content: center;
+}
+.ppe{
+    width: 330px;
+}
+.bb{
+    width: 250px;
+    left: 50px;
+}
+.sep{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.sep1{
+    border: 1PX solid whitesmoke;
+    height: 280px;
+    width: 1150px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 460px;
+    left: 90px;
+    background-color:white;
+    box-shadow: 2px 2px 2px 2px;
+
+}  
+.men{
+    background-color: blue;
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+    left: 170px;
+    top: 60px;
+}
+.men:hover{
+    background-color: rgb(198, 67, 67);
+}
+.tag{
+    position: relative;
+    top: 60%;
+    display: flex;
+    justify-content: center;
+}
+.action{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+.assian{
+    border: 1px solid black;
+    height: 320px;
+    width: 280px;
+    border-radius: 30px;
+    background-color: rgb(235, 228, 228);  
+}
+.trending{
+    position: absolute;
+    top: 1890px;
+    left: 150px;
+    right: 170px;
+}
+.top{
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+    background-color: gainsboro;
+    width: 100%;
+    height: 2200px;
+    position: relative;
+    top: 2080px;
+    left: 130px;
+}
+.up{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    justify-content: space-around;
+}
+.tip{
+  height: 300px;
+  width: 210px;
+  background-color:whitesmoke;
+  border-radius: 40px;
+}
+.cat{
+    position: relative;
+    top: 2100px;
+    left: 130px;
+    
+  }
+  .down{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: space-around;;
+    position: relative;
+    top: 70px;
+    right: 20px;
+}
+.pop2{
+    display: flex;
+    border: 2px;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 3220px;
+    left: 70px;
+    background-color: gainsboro;
+    border-radius: 40px;
+    display: block;
+}
+.pop3{
+    display: flex;
+    border: 2px;
+    height: 400px;
+    width: 500px;
+    position: relative;
+    top: 3260px;
+    left: 70px;
+    background-color: gainsboro;
+    border-radius: 40px;
+    display: block;
+}
+.pop{
+    display: none;
+  position: relative;
+  left: 350px;
+  border-radius: 40px;
+}
+.footer1{
+    position: relative;
+    top:7860px;
+    height: 170px;
+    width: 670px;
+    border-top-left-radius:180px ;
+    border-top-right-radius: 180px;
+}
+.footer2{
+    position: relative;
+    top: 7700px;
+    left: 130px;
+    text-align: center;
+    color: white;
+}
+.btn1{
+    position: relative;
+    left: 290px;
+    bottom: 11%;
+    width: 25vw;
+    background-color: rgb(237, 92, 92);
+    border-radius: 50px;
+}
+.btn1:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+.btn3{
+    position: relative;
+    left: 235px; 
+    bottom: 4%;
+    width: 130px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(237, 91, 91);
+}
+
+}
+        
+        
+    </style>
+    
+
+</head>
+<body>
+    <div class="container">
+    <div class="nav">
+        <nav>
+            <span class="logo"><img src="./drive-download-20240718T140125Z-001/logo.png" alt=""></span>
+            <div class="ul">
+            <ul>Home</ul>
+            <ul>Our Shop</ul>
+            <ul>Product Details</ul>
+            <ul>Contact Us</ul>
+            <ul class="sign">Sign In</ul>
+        </nav>  
+        </div>  
+    <div class="home">
+        <div class="we">
+            <p><b>WELCOME TO LUGX</b></p>
+            <h1><b>BEST GAMING WEBSITE EVER!</b> <br>
+            <img src="./drive-download-20240718T140125Z-001/caption-dec.png" alt="">
+        </h1>
+        <p class="ppe">LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming <br>
+             websites. You can download and use this layout for commercial purposes. <br>
+              Please tell your friends about TemplateMo</p>
+              <button class="bb"><i>search now</i></button>
+        </div>
+        <div class="img1">
+            <img class="bo" src="./drive-download-20240718T140125Z-001/banner-image.jpg" alt="" height="400px">
+            <div class="round"> <h3>-40%</h3></div>
+            <div class="rect"><h4>$22</h4></div>
+        </div>
+        <div class="sep">
+            <div class="sep1">
+                <p class="tag"><b>FREE STORAGE</b></p>
+                <img class="men"  src="./drive-download-20240718T140125Z-001/featured-01.png" alt="">
+            </div>
+            <div class="sep1">
+                <p class="tag"><b>USER MORE</b></p>
+                <img class="men"  src="./drive-download-20240718T140125Z-001/featured-02.png" alt="">
+            </div>
+            <div class="sep1">
+                <p class="tag"><b>REPLY READY</b></p>
+                <img class="men"  src="./drive-download-20240718T140125Z-001/featured-03.png" alt="">
+            </div>
+            <div class="sep1">
+                <p class="tag"><b>EASY LAYOUT</b></p>
+                <img class="men"  src="./drive-download-20240718T140125Z-001/featured-04.png" alt="" >
+            </div>
+        </div>
+    </div>
+    <div class="trending"><p class="text-danger">TRENDING</p>
+        <h1>TRENDING GAMES</h1>
+        <button class="btn1">VIEW ALL</button>
+        <div class="action">
+            <div class="assian">
+                <p class="tag1" >ACTION</p>
+                <h5 class="tag1">ASSIAN CRED</h5>
+                <img class="she" src="./drive-download-20240718T140125Z-001/categories-05.jpg" alt="">
+                <div class="sym3"><ion-icon name="bag-handle-outline"></ion-icon></div>
+                <div class="sym4"></div>
+            </div>
+            <div class="assian" >
+                <p class="tag1" >ACTION</p>
+                <h5 class="tag1">ASSIAN CRED</h5>
+                <img class="she"  src="./drive-download-20240718T140125Z-001/categories-03.jpg" alt="">
+                <div class="sym"><ion-icon name="bag-handle-outline"></ion-icon></div>
+                <div class="sym1"><s>28$</s>
+                <p>20$</p></div>
+            </div>
+            <div class="assian">
+                <p class="tag1" >ACTION</p>
+                <h5 class="tag1">ASSIAN CRED</h5>
+                <img class="she"  src="./drive-download-20240718T140125Z-001/categories-04.jpg" alt="">
+                <div class="sym"><ion-icon name="bag-handle-outline"></ion-icon></div>
+                <div class="sym1"><h5>44$</h5></div>
+            </div>
+            <div class="assian">
+                <p class="tag1" >ACTION</p>
+                <h5 class="tag1">ASSIAN CRED</h5>
+                <img class="she"  src="./drive-download-20240718T140125Z-001/trending-04.jpg" alt="">
+                <div class="sym"><ion-icon name="bag-handle-outline"></ion-icon></div>
+                <div class="sym1"><s>$64</s><br><p>$44</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="top">
+        <P class="text-danger pt-5 ps-3"  >TOP GAMES</P>
+        <h3 class="ps-3 h2"><b>MOST PLAYED</b>
+        </h3>
+        <button class="btn3">view all</button>
+        <div class="up">
+            <div class="tip">
+                <div class="tip1"><p class="text-muted ps-4">ADVENTURE</p>
+                <h5 class="text ps-3"><b>ASSIAN CRED</b></h5></div>
+                <img class="tip3" src="./drive-download-20240718T140125Z-001/top-game-01.jpg" alt="">
+                <button class="btn5">EXPLORE</button>
+            </div>
+            <div class="tip4">
+                <div class="tip5"><p class="text-muted ps-4">ADVENTURE</p>
+                    <h5 class="text ps-3"><b>ASSIAN CRED</b></h5></div>
+                <img class="tip6" src="./drive-download-20240718T140125Z-001/top-game-02.jpg" alt="">
+                <button class="btn5">EXPLORE</button>
+            </div>
+            <div class="tip7">
+                <div class="tip8"><p class="text-muted ps-4">ADVENTURE</p>
+                    <h5 class="text ps-3"><b>ASSIAN CRED</b></h5></div>
+                <img class="tip9" src="./drive-download-20240718T140125Z-001/top-game-03.jpg" alt="">
+                <button class="btn5">EXPLORE</button>
+            </div>
+            <div class="tip10">
+                <div class="tip11"><p class="text-muted ps-4">ADVENTURE</p>
+                    <h5 class="text ps-3"><b>ASSIAN CRED</b></h5></div>
+                <img class="tip12" src="./drive-download-20240718T140125Z-001/top-game-04.jpg" alt="">
+                <button class="btn5">EXPLORE</button>
+            </div>
+            <div class="tip13">
+                <div class="tip14"><p class="text-muted ps-4">ADVENTURE</p>
+                    <h5 class="text ps-3"><b>ASSIAN CRED</b></h5></div>
+                <img class="tip15" src="./drive-download-20240718T140125Z-001/top-game-05.jpg" alt="">
+                <button class="btn5">EXPLORE</button>
+            </div>
+            <div class="tip16">
+                <div class="tip17"><p class="text-muted ps-4">ADVENTURE</p>
+                    <h5 class="text ps-3"><b>ASSIAN CRED</b></h5></div>
+                <img class="tip18" src="./drive-download-20240718T140125Z-001/top-game-06.jpg" alt="">
+                <button class="btn5">EXPLORE</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="cat">
+        <p class="text-danger text-center p-5"><b>CATEGORIES</b></p>
+        <h2 class="text-center h1"><b>TOP CATEGORIES</b></h2>
+        <div class="down">
+            <div class="cat1">
+                <p class="text-light text-center"><b>ACTION</b></p>
+                <img class="tom1" src="./drive-download-20240718T140125Z-001/categories-01.jpg" alt="">
+            </div>
+            <div class="cat1">
+                <p class="text-light text-center"><b>ACTION</b></p>
+                <img class="tom2"  src="./drive-download-20240718T140125Z-001/categories-02.jpg" alt="">
+            </div>
+            <div class="cat1">
+                <p class="text-light text-center"><b>ACTION</b></p>
+                <img class="tom3"  src="./drive-download-20240718T140125Z-001/categories-03.jpg" alt="">
+            </div>
+            <div class="cat1">
+                <p class="text-light text-center"><b>ACTION</b></p>
+                <img class="tom4"  src="./drive-download-20240718T140125Z-001/categories-04.jpg" alt="">
+            </div>
+            <div class="cat1">
+                <p class="text-light text-center"><b>ACTION</b></p>
+                <img class="tom4"  src="./drive-download-20240718T140125Z-001/categories-05.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div class="our">
+        <img class="pop" src="./drive-download-20240718T140125Z-001/cta-bg.jpg" alt="">
+            <div class="pop2">
+                <p class="text-danger ps-5 pt-5"><b>OUR SHOP</b></p>
+                <h1 class="ps-5"><b>GO PRE-ORDER BUY <br>
+                    & GET BEST <span class="text-primary">PRICES</span><br>
+                    FOR YOU!</b>
+                </h1><br>
+                <p class="ps-5"><b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta eaque adipisci neque corporis quibusdam ab repudiandae, quis vel quidem. Voluptate veniam eveniet vel ut fuga inventore. Saepe voluptatem cumque repellendus.</b></p><br>
+                <button class="btn7">SHOP NOW</button>
+            </div>
+            <div class="pop3">
+                <p class="text-danger ps-5 pt-5">NEWS LETTER</p>
+                <h1 class="ps-5"><b>Get Up To $100 Off <br> Just Buy <span class="text-primary">Subscribe </span><br> Newsletter!</b></h1><br>
+                <input class="btn8" type="email" placeholder="type your email">
+                <button class="btn9" id="sub">SUBSCRIBE NOW</button>
+            </div>
+        </div>
+    </div>
+    <div class="'footer">
+       <img class="footer1" src="./drive-download-20240718T140125Z-001/footer-bg.jpg" alt="">
+       <p class="footer2"> Copyright © 2023 Crystal Gaming Company. All rights reserved Design:ircoittech</p>
+        <h1 class="footer2"><b><i class="text-dark h3">CHAITANYATANAKALA</i></b></h1>
+       
+    </div>
+    </div>
+</body>
+</html>
